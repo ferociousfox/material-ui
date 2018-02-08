@@ -16,6 +16,13 @@ function Gallery(){
       <GalleryItem
         title="Components"
         image={componentsSvg}/>
+      <style jsx>{`
+        .gallery {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          padding-top: 40px;
+        }
+      `}</style>
     </div>
   );
 }
